@@ -1,0 +1,58 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+}
+
+{
+  "races": [
+    {
+      "name": "Human",
+      "traits": [
+        {
+          "ability_score_increase": "Ability Score: all : +1",
+          "extra_language": "Extra Language: Choose one additional language to learn."
+        }
+      ]
+    },
+    {
+      "name": "Elf",
+      "traits": [
+        {
+          "ability_score_increase": "Ability Score: Dexterity : +2",
+          "darkvision": "Darkvision: You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light.",
+          "fey_ancestry": "Fey Ancestry: You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+        }
+      ]
+    },
+    {
+      "name": "Dwarf",
+      "traits": [
+        {
+          "ability_score_increase": "Ability Score: Constitution : +2",
+          "darkvision": "Darkvision: You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light.",
+          "dwarven_resilience": "Dwarven Resilience: You have advantage on saving throws against poison, and you have resistance against poison damage."
+        }
+      ]
+    },
+    {
+      "name": "Halfling",
+      "traits": [
+        {
+          "ability_score_increase": "Ability Score: Dexterity : +2",
+          "lucky": "Lucky: When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.",
+          "brave": "Brave: You have advantage on saving throws against being frightened."
+        }
+      ]
+    },
+    {
+      "name": "Dragonborn",
+      "traits": [
+        {
+          "ability_score_increase": "Ability Score: Strength : +2, Charisma : +1",
+          "draconic_ancestry": "Draconic Ancestry: You have a breath weapon and damage resistance determined by your draconic ancestry."
+        }
+      ]
+    }
+  ]
+}
