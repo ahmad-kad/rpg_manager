@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum RacialTrait {
+public enum RacialTrait: CaseIterable, Codable {
     case elf
     case human
     case dwarf
@@ -15,11 +15,12 @@ enum RacialTrait {
     var description: String {
         switch self {
         case .elf:
-            return "elf"
+            return "Elf"
         case .human:
-            return "human"
+            return "Human"
         case .dwarf:
-            return "dwarf"
+            return "Dwarf"
         }
     }
 }
+

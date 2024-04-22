@@ -2,23 +2,14 @@
 //  Actor.swift
 //  rpg_manager
 //
-//  Created by Scottyyyyyy on 4/1/24.
+//  Created by Phuc Thinh Nguyen on 4/1/24.
 //
 
 import Foundation
+import SwiftData
 
-// ---
-struct Item {
-    // Define item properties here
-}
-
-// Define List struct
-struct List {
-    // Define list properties here
-}
-
-class Actor{
-    
+@Model
+class Actor {
     private var name: String = ""
     
     private var actorClass: CharacterClass
@@ -29,8 +20,6 @@ class Actor{
     private var currentHP: Int = 0
     private var armorClass: Int = 0
     private var experience: Int = 0
-    
-    //private var inventory: List
     
     private var race: RacialTrait
     
@@ -46,7 +35,6 @@ class Actor{
         self.currentHP = currentHP
         self.armorClass = armorClass
         self.experience = experience
-        //self.inventory = inventory
         self.race = race
         self.isAlive = isAlive
         self.isActive = isActive
@@ -123,20 +111,16 @@ class Actor{
         self.experience = experience
     }
 
-    /*
-    func getInventory() -> Int {
-        return inventory
-    }
-    func setInventory(inventory: Int) {
-        self.inventory = inventory
-    }
-     */
-
     func getRace() -> RacialTrait {
         return race
     }
     func setRace(race: RacialTrait) {
         self.race = race
     }
-    
 }
+
+//    var theActors: [Actor] =
+//    [Actor(name: "Marsel", actorClass: .barbarian, level: 1, mana: 1, maxHP: 1, currentHP: 1, armorClass: 1, experience: 1, race: .elf, isAlive: true, isActive: true),
+//     Actor(name: "Scott", actorClass: .ranger, level: 2, mana: 5, maxHP: 50, currentHP: 50, armorClass: 2, experience: 2, race: .elf, isAlive: true, isActive: true),
+//     Actor(name: "Ahmad", actorClass: .wizard, level: 3, mana: 9, maxHP: 100, currentHP: 100, armorClass: 3, experience: 3, race: .human, isAlive: true, isActive: true)
+//    ]

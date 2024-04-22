@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1776EF402BE1ABAB0064A6EA /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776EF3F2BE1ABAB0064A6EA /* MainMenu.swift */; };
+		1776EF422BE1ABBB0064A6EA /* PageTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776EF412BE1ABBB0064A6EA /* PageTwo.swift */; };
+		1776EF462BE1AFD80064A6EA /* LoadChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776EF452BE1AFD80064A6EA /* LoadChar.swift */; };
+		C312AAA92BE7FA6100931516 /* EditChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C312AAA82BE7FA6100931516 /* EditChar.swift */; };
+		C3793DD92BEC274700AB4DF0 /* PendingActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3793DD82BEC274700AB4DF0 /* PendingActor.swift */; };
+		C3793DDB2BEC393D00AB4DF0 /* EditCharForPending.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3793DDA2BEC393D00AB4DF0 /* EditCharForPending.swift */; };
 		F66A51642BA917D6001B8BCA /* rpg_managerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66A51632BA917D6001B8BCA /* rpg_managerApp.swift */; };
 		F66A51662BA917D6001B8BCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66A51652BA917D6001B8BCA /* ContentView.swift */; };
 		F66A51682BA917D7001B8BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66A51672BA917D7001B8BCA /* Assets.xcassets */; };
 		F66A516B2BA917D7001B8BCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66A516A2BA917D7001B8BCA /* Preview Assets.xcassets */; };
 		F68C14772BD0676E0088B71C /* RacialTrait.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C14722BD0676E0088B71C /* RacialTrait.swift */; };
 		F68C14782BD0676E0088B71C /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C14732BD0676E0088B71C /* Actor.swift */; };
-		F68C14792BD0676E0088B71C /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C14742BD0676E0088B71C /* List.swift */; };
 		F68C147A2BD0676E0088B71C /* CharacterClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C14752BD0676E0088B71C /* CharacterClass.swift */; };
-		F68C147B2BD0676E0088B71C /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C14762BD0676E0088B71C /* Inventory.swift */; };
 		F68C147E2BD351050088B71C /* Barbarian.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C147D2BD351050088B71C /* Barbarian.swift */; };
 		F68C14802BD351130088B71C /* Ranger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C147F2BD351130088B71C /* Ranger.swift */; };
 		F68C14822BD351200088B71C /* Wizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C14812BD351200088B71C /* Wizard.swift */; };
@@ -23,6 +27,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1776EF3F2BE1ABAB0064A6EA /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		1776EF412BE1ABBB0064A6EA /* PageTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwo.swift; sourceTree = "<group>"; };
+		1776EF452BE1AFD80064A6EA /* LoadChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadChar.swift; sourceTree = "<group>"; };
+		C312AAA82BE7FA6100931516 /* EditChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditChar.swift; sourceTree = "<group>"; };
+		C3793DD82BEC274700AB4DF0 /* PendingActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingActor.swift; sourceTree = "<group>"; };
+		C3793DDA2BEC393D00AB4DF0 /* EditCharForPending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCharForPending.swift; sourceTree = "<group>"; };
 		F66A51602BA917D6001B8BCA /* rpg_manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rpg_manager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66A51632BA917D6001B8BCA /* rpg_managerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rpg_managerApp.swift; sourceTree = "<group>"; };
 		F66A51652BA917D6001B8BCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,9 +40,7 @@
 		F66A516A2BA917D7001B8BCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F68C14722BD0676E0088B71C /* RacialTrait.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RacialTrait.swift; sourceTree = "<group>"; };
 		F68C14732BD0676E0088B71C /* Actor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
-		F68C14742BD0676E0088B71C /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		F68C14752BD0676E0088B71C /* CharacterClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterClass.swift; sourceTree = "<group>"; };
-		F68C14762BD0676E0088B71C /* Inventory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
 		F68C147D2BD351050088B71C /* Barbarian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barbarian.swift; sourceTree = "<group>"; };
 		F68C147F2BD351130088B71C /* Ranger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ranger.swift; sourceTree = "<group>"; };
 		F68C14812BD351200088B71C /* Wizard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wizard.swift; sourceTree = "<group>"; };
@@ -72,9 +80,8 @@
 				F68C147C2BD350DB0088B71C /* CharacerClasses */,
 				F66A51632BA917D6001B8BCA /* rpg_managerApp.swift */,
 				F68C14732BD0676E0088B71C /* Actor.swift */,
+				C3793DD82BEC274700AB4DF0 /* PendingActor.swift */,
 				F68C14752BD0676E0088B71C /* CharacterClass.swift */,
-				F68C14762BD0676E0088B71C /* Inventory.swift */,
-				F68C14742BD0676E0088B71C /* List.swift */,
 				F68C14722BD0676E0088B71C /* RacialTrait.swift */,
 				F66A51652BA917D6001B8BCA /* ContentView.swift */,
 				F66A51672BA917D7001B8BCA /* Assets.xcassets */,
@@ -88,6 +95,11 @@
 			isa = PBXGroup;
 			children = (
 				F66A516A2BA917D7001B8BCA /* Preview Assets.xcassets */,
+				1776EF3F2BE1ABAB0064A6EA /* MainMenu.swift */,
+				1776EF412BE1ABBB0064A6EA /* PageTwo.swift */,
+				1776EF452BE1AFD80064A6EA /* LoadChar.swift */,
+				C312AAA82BE7FA6100931516 /* EditChar.swift */,
+				C3793DDA2BEC393D00AB4DF0 /* EditCharForPending.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -172,15 +184,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F68C147B2BD0676E0088B71C /* Inventory.swift in Sources */,
 				F68C14772BD0676E0088B71C /* RacialTrait.swift in Sources */,
+				1776EF422BE1ABBB0064A6EA /* PageTwo.swift in Sources */,
 				F66A51662BA917D6001B8BCA /* ContentView.swift in Sources */,
+				C312AAA92BE7FA6100931516 /* EditChar.swift in Sources */,
 				F68C147A2BD0676E0088B71C /* CharacterClass.swift in Sources */,
 				F68C14822BD351200088B71C /* Wizard.swift in Sources */,
 				F68C14842BD358F60088B71C /* ActorView.swift in Sources */,
+				1776EF462BE1AFD80064A6EA /* LoadChar.swift in Sources */,
+				C3793DDB2BEC393D00AB4DF0 /* EditCharForPending.swift in Sources */,
 				F66A51642BA917D6001B8BCA /* rpg_managerApp.swift in Sources */,
+				1776EF402BE1ABAB0064A6EA /* MainMenu.swift in Sources */,
+				C3793DD92BEC274700AB4DF0 /* PendingActor.swift in Sources */,
 				F68C14782BD0676E0088B71C /* Actor.swift in Sources */,
-				F68C14792BD0676E0088B71C /* List.swift in Sources */,
 				F68C14802BD351130088B71C /* Ranger.swift in Sources */,
 				F68C147E2BD351050088B71C /* Barbarian.swift in Sources */,
 			);
@@ -316,6 +332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"rpg_manager/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -344,6 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"rpg_manager/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

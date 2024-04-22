@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftData
 
 class Barbarian: Actor {
     var rageLevel: Int = 0
@@ -16,6 +17,10 @@ class Barbarian: Actor {
         
         self.rageLevel = 0
         self.weapon = "Axe"
+    }
+    
+    required init(backingData: any SwiftData.BackingData<Actor>) {
+        fatalError("init(backingData:) has not been implemented")
     }
     
     func increaseRage() {

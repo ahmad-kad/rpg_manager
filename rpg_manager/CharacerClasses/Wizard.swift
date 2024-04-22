@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import SwiftData
+
 class Wizard: Actor {
     var spellBook: [String] = []
     
@@ -13,6 +15,10 @@ class Wizard: Actor {
         super.init(name: name, actorClass: .wizard, level: level, mana: 20, maxHP: 8, currentHP: 8, armorClass: 3, experience: 0, race: race, isAlive: isAlive, isActive: isActive)
         
         self.spellBook = ["Fireball", "Magic Missile"]
+    }
+    
+    required init(backingData: any SwiftData.BackingData<Actor>) {
+        fatalError("init(backingData:) has not been implemented")
     }
     
     // Method to cast a spell

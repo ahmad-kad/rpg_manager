@@ -7,8 +7,7 @@
 
 import Foundation
 
-enum CharacterClass {
-    
+enum CharacterClass: CaseIterable, Codable {
     case barbarian
     case ranger
     case wizard
