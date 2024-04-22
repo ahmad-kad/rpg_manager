@@ -22,7 +22,10 @@ class Barbarian: Actor {
         rageLevel += 1
     }
     
-    func attack() {
+    
+    override func attack() -> Int{
         print("\(getName()) attacks with \(weapon)!")
+        rageLevel += 1
+        return rageLevel + super.getLevel() * Int.random(in:1..<5)
     }
 }

@@ -23,4 +23,8 @@ class Wizard: Actor {
             print("\(getName()) doesn't know \(spell).")
         }
     }
+    
+    override func attack() -> Int{
+        return super.getLevel() * Int.random(in: 1..<3)
+    }
 }

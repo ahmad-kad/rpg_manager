@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C3A7DACE2BD060CF004FF7DE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7DACD2BD060CF004FF7DE /* File.swift */; };
 		F66A51642BA917D6001B8BCA /* rpg_managerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66A51632BA917D6001B8BCA /* rpg_managerApp.swift */; };
 		F66A51662BA917D6001B8BCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66A51652BA917D6001B8BCA /* ContentView.swift */; };
 		F66A51682BA917D7001B8BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66A51672BA917D7001B8BCA /* Assets.xcassets */; };
@@ -17,10 +16,13 @@
 		F68C14792BD0676E0088B71C /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C14742BD0676E0088B71C /* List.swift */; };
 		F68C147A2BD0676E0088B71C /* CharacterClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C14752BD0676E0088B71C /* CharacterClass.swift */; };
 		F68C147B2BD0676E0088B71C /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C14762BD0676E0088B71C /* Inventory.swift */; };
+		F68C147E2BD351050088B71C /* Barbarian.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C147D2BD351050088B71C /* Barbarian.swift */; };
+		F68C14802BD351130088B71C /* Ranger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C147F2BD351130088B71C /* Ranger.swift */; };
+		F68C14822BD351200088B71C /* Wizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C14812BD351200088B71C /* Wizard.swift */; };
+		F68C14842BD358F60088B71C /* ActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C14832BD358F60088B71C /* ActorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C3A7DACD2BD060CF004FF7DE /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		F66A51602BA917D6001B8BCA /* rpg_manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rpg_manager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66A51632BA917D6001B8BCA /* rpg_managerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rpg_managerApp.swift; sourceTree = "<group>"; };
 		F66A51652BA917D6001B8BCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,6 +33,10 @@
 		F68C14742BD0676E0088B71C /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		F68C14752BD0676E0088B71C /* CharacterClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterClass.swift; sourceTree = "<group>"; };
 		F68C14762BD0676E0088B71C /* Inventory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		F68C147D2BD351050088B71C /* Barbarian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barbarian.swift; sourceTree = "<group>"; };
+		F68C147F2BD351130088B71C /* Ranger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ranger.swift; sourceTree = "<group>"; };
+		F68C14812BD351200088B71C /* Wizard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wizard.swift; sourceTree = "<group>"; };
+		F68C14832BD358F60088B71C /* ActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +69,7 @@
 		F66A51622BA917D6001B8BCA /* rpg_manager */ = {
 			isa = PBXGroup;
 			children = (
-				C3A7DACD2BD060CF004FF7DE /* File.swift */,
+				F68C147C2BD350DB0088B71C /* CharacerClasses */,
 				F66A51632BA917D6001B8BCA /* rpg_managerApp.swift */,
 				F68C14732BD0676E0088B71C /* Actor.swift */,
 				F68C14752BD0676E0088B71C /* CharacterClass.swift */,
@@ -73,6 +79,7 @@
 				F66A51652BA917D6001B8BCA /* ContentView.swift */,
 				F66A51672BA917D7001B8BCA /* Assets.xcassets */,
 				F66A51692BA917D7001B8BCA /* Preview Content */,
+				F68C14832BD358F60088B71C /* ActorView.swift */,
 			);
 			path = rpg_manager;
 			sourceTree = "<group>";
@@ -83,6 +90,16 @@
 				F66A516A2BA917D7001B8BCA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F68C147C2BD350DB0088B71C /* CharacerClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F68C147D2BD351050088B71C /* Barbarian.swift */,
+				F68C147F2BD351130088B71C /* Ranger.swift */,
+				F68C14812BD351200088B71C /* Wizard.swift */,
+			);
+			path = CharacerClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,10 +176,13 @@
 				F68C14772BD0676E0088B71C /* RacialTrait.swift in Sources */,
 				F66A51662BA917D6001B8BCA /* ContentView.swift in Sources */,
 				F68C147A2BD0676E0088B71C /* CharacterClass.swift in Sources */,
-				C3A7DACE2BD060CF004FF7DE /* File.swift in Sources */,
+				F68C14822BD351200088B71C /* Wizard.swift in Sources */,
+				F68C14842BD358F60088B71C /* ActorView.swift in Sources */,
 				F66A51642BA917D6001B8BCA /* rpg_managerApp.swift in Sources */,
 				F68C14782BD0676E0088B71C /* Actor.swift in Sources */,
 				F68C14792BD0676E0088B71C /* List.swift in Sources */,
+				F68C14802BD351130088B71C /* Ranger.swift in Sources */,
+				F68C147E2BD351050088B71C /* Barbarian.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

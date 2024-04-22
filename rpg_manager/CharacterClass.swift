@@ -7,7 +7,21 @@
 
 import Foundation
 
-class CharacterClass {
+enum CharacterClass {
     
-    private var job
+    case barbarian
+    case ranger
+    case wizard
+    
+    var description: String {
+        switch self {
+        case .barbarian:
+            return "Barbarian"
+        case .ranger:
+            return "Ranger"
+        case .wizard:
+            return "Wizard"
+        }
+    }
 }
+

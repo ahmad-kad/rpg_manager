@@ -7,7 +7,17 @@
 
 import Foundation
 
-class Actor {
+// ---
+struct Item {
+    // Define item properties here
+}
+
+// Define List struct
+struct List {
+    // Define list properties here
+}
+
+class Actor{
     
     private var name: String = ""
     
@@ -20,14 +30,14 @@ class Actor {
     private var armorClass: Int = 0
     private var experience: Int = 0
     
-    private var inventory: List
+    //private var inventory: List
     
     private var race: RacialTrait
     
     private var isAlive: Bool = false
     private var isActive: Bool = false
     
-    init(name: String, actorClass: CharacterClass, level: Int, mana: Int, maxHP: Int, currentHP: Int, armorClass: Int, experience: Int, inventory: List, race: RacialTrait, isAlive: Bool, isActive: Bool) {
+    init(name: String, actorClass: CharacterClass, level: Int, mana: Int, maxHP: Int, currentHP: Int, armorClass: Int, experience: Int, race: RacialTrait, isAlive: Bool, isActive: Bool) {
         self.name = name
         self.actorClass = actorClass
         self.level = level
@@ -36,10 +46,14 @@ class Actor {
         self.currentHP = currentHP
         self.armorClass = armorClass
         self.experience = experience
-        self.inventory = inventory
+        //self.inventory = inventory
         self.race = race
         self.isAlive = isAlive
         self.isActive = isActive
+    }
+    
+    func attack() -> Int{
+        return self.level * Int.random(in: 1..<5)
     }
     
     func characterIsAlive() -> Bool {
@@ -109,14 +123,14 @@ class Actor {
         self.experience = experience
     }
 
-
+    /*
     func getInventory() -> Int {
         return inventory
     }
     func setInventory(inventory: Int) {
         self.inventory = inventory
     }
-
+     */
 
     func getRace() -> RacialTrait {
         return race

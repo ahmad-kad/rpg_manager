@@ -6,3 +6,20 @@
 //
 
 import Foundation
+
+enum RacialTrait {
+    case elf
+    case human
+    case dwarf
+    
+    var description: String {
+        switch self {
+        case .elf:
+            return "elf"
+        case .human:
+            return "human"
+        case .dwarf:
+            return "dwarf"
+        }
+    }
+}
