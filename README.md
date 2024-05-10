@@ -18,6 +18,10 @@ The load character button reads saved data to load for future use.
 
 We can also edit previously created characters, both finished and unfinished, by loading the character onto an edit screen
 
+
+Credits are low resource text view that contains information about who contributed to the project.
+
+
 ## Class Diagram
 <img src="classd.png" alt="Class Diagram" width="512">
 
@@ -30,18 +34,16 @@ We can also edit previously created characters, both finished and unfinished, by
 
 ## Design Patterns
 
-- Factory Method Pattern: We used the factory method design pattern to create actor objects with certain attributes from the PageTwo method. It stores those attributes of the playable classes in the object adding some specific functionality to the object.
-- Model-View-ViewModel (MVVM):  Our main UI elements, PageTwo, LoadChar, and MainMenu resemble the MVVM pattern. The views are responsible for displaying the UI, while ViewModels from the @State and @Binding handle the presentation logic and data binding. 
+- **Factory Method Pattern**: We used the factory method design pattern to create actor objects with certain attributes from the PageTwo method. It stores those attributes of the playable classes in the object adding some specific functionality to the object.
+- **Model-View-ViewModel (MVVM)**:  Our main UI elements, PageTwo, LoadChar, and MainMenu resemble the MVVM pattern. The views are responsible for displaying the UI, while ViewModels from the @State and @Binding handle the presentation logic and data binding. 
 @State variables such as selectedTrait, selectedClass, and heroName in PageTwo.swift manages the state of the UI components and can be updated.
-- Repository Pattern: The Actor class serves as a repository for character data. It encapsulates the data and behavior related to playable characters, providing a single source for managing character-related information.
-- Observer/Observable Pattern: SwiftUI extensively leverages the observer/observable pattern for managing UI state. 
+- **Repository Pattern**: The Actor class serves as a repository for character data. It encapsulates the data and behavior related to playable characters, providing a single source for managing character-related information.
+- **Observer/Observable Pattern**: SwiftUI extensively leverages the observer/observable pattern for managing UI state. 
 For example, the ‘@State’ syntax triggers the UI to update automatically.
-Builder Pattern: SwiftUI uses a declarative syntax to construct views, which form the builder pattern. The views are composed hierarchically, with each component responsible for its own configuration and layout, building the overall app.
+- **Builder Pattern**: SwiftUI uses a declarative syntax to construct views, which form the builder pattern. The views are composed hierarchically, with each component responsible for its own configuration and layout, building the overall app.
 
 ## Instructions
 
 1. Clone repository
 2. Open project file
 
-
-Credits are low resource text view that contains information about who contributed to the project.
