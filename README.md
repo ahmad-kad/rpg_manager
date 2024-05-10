@@ -1,8 +1,11 @@
 ##  Introduction
-	While role-playing games (RPG) such as Final Fantasy have been going on for a while in the gaming industry, it is essential for the player to be able to customize their character. For instance, perhaps the player wants their character to be more or less representative of their characteristics, like as precise as a ranger or as magical and mysterious as a wizard. Therefore, recognizing such personal tastes, our group has decided to allow the players to manage and customize their own characters in the games they are playing via a portable device such as a phone.
+
+While role-playing games (RPG) such as Final Fantasy have been going on for a while in the gaming industry, it is essential for the player to be able to customize their character. For instance, perhaps the player wants their character to be more or less representative of their characteristics, like as precise as a ranger or as magical and mysterious as a wizard. Therefore, recognizing such personal tastes, our group has decided to allow the players to manage and customize their own characters in the games they are playing via a portable device such as a phone.
  
 ## Objective
-	The objective of this project is to create a manager app for playable characters in an RPG. We want the manager to add new classes and be able to store information for future use. We aimed to create an all-around manager system that can be scaled up with more inherent information.
+
+The objective of this project is to create a manager app for playable characters in an RPG. We want the manager to add new classes and be able to store information for future use. We aimed to create an all-around manager system that can be scaled up with more inherent information.
+
 ## Project High-Level Design
 
 On a high-level approach, the following characteristics are displayed:
@@ -16,10 +19,14 @@ The load character button reads saved data to load for future use.
 We can also edit previously created characters, both finished and unfinished, by loading the character onto an edit screen
 
 ## Class Diagram
+<img src="classd.png" alt="Class Diagram" width="512">
+
 
 ## Sequence Diagram
+<img src="sq.png" alt="Sequence Diagram" width="512">
 
 ## Screenshots
+<img src="mm.png" alt="Main Menu" height="512"> <img src="customize.png" alt="Character Creation" height="512"> <img src="load.png" alt="Load Character" height="512"> <img src="edit.png" alt="Edit Character" height="512">
 
 ## Design Patterns
 
