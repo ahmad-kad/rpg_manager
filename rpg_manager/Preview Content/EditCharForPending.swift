@@ -63,7 +63,7 @@ struct EditCharForPending: View {
                             }
                             ChosenHeroViewTwo(pendingEditingActor: $pendingEditingActor, selectedTrait: $selectedTrait, selectedClass: $selectedClass, heroName: $heroName, newLevel: $newLevel, newMana: $newMana, newMaxHP: $newMaxHP, newArmorClass: $newArmorClass, newExperience: $newExperience)
                         }
-                        .navigationTitle("Customize Character")
+                        .navigationTitle("Edit Character")
                     }
                 }
             }
